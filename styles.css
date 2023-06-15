@@ -1,0 +1,262 @@
+.hero-section {
+  background-color: #000000;
+  padding: 100px 0;
+}
+
+.landing-page-heading {
+  margin-bottom: 40px;
+  color: white;
+}
+
+.landing-page-heading3 {
+    margin-bottom: 0px; 
+    font-size: 64px;
+  }
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.nav-item .btn.btn-light {
+  background-color: #E5F0B6;
+  /* Add any other custom styles for the button */
+}
+
+.btn-watch-videos {
+  color: brown;
+  border-color: brown;
+  margin-left: 10px;
+}
+
+.image-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.custom-btn {
+  float: left;
+  margin-right: 10px;
+  background-color: #E5F0B6;
+}
+
+.custom-width {
+  width: 250px; /* Adjust the width as desired */
+}
+
+.custom-btn.custom-width {
+  background-color: #E5F0B6;
+  outline: none;
+}
+
+.custom-outline-btn {
+  float: left;
+  margin-right: 138px;
+}
+
+.jumbotron-image {
+  width: 1000%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.landing-page-heading {
+  font-size: 64px;
+  color: #2F241F;
+}
+
+.furniture-text {
+  color: #817253;
+}
+
+.jumbotron-second {
+  margin-top: -30px;
+  background-color: #2F241F !important;
+  color: #E5F0B6;
+}
+
+.jumbotron-second h1,
+.jumbotron-second .btn {
+  color: #E5F0B6;
+}
+
+.btn-icon {
+    background-color: #E5F0B6;
+    color: white;
+}
+
+.row {
+  margin-left: 20px;
+}
+
+.jumbotron-third {
+    margin-top: -30px; /* Adjust the value as needed */
+ }
+
+.text-images-row {
+    margin-right: -1000px; /* Adjust the margin as per your preference */
+}
+
+.text-images-row .col-4 {
+    margin-bottom: 10px; /* Adjust the margin as per your preference */
+}
+
+.jumbotron-fourth {
+    margin-top: -30px; /* Adjust the value as needed */
+  }
+
+.custom-image-container img {
+  width: 400%;
+  height: 100%;
+  max-width: 300px; /* Adjust the width as needed */
+}
+
+.text-container {
+    margin-left: 50px; /* Add margin to create space on the left side */
+    padding-top: -10px; /* Add padding to create space on the top */
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+
+.btn-group button {
+  background-color: #FCFAFA;
+  color: black;
+  padding: 10px 24px;
+  cursor: pointer;
+  width:350px;
+  text-align: left; 
+  padding-left: 20px;
+  position: relative;
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none;
+}
+
+.btn-group button:hover {
+  background-color: #E5F0B6;
+}
+
+.btn-group button:hover::after {
+  content: "This is a description.";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width:100%;
+  padding: 10px;
+  background-color: #E5F0B6;
+  color: black;
+}
+
+
+.jumbotron-fifth {
+    margin-top: -30px; 
+    background-color: #2F241F !important;
+    color: #E5F0B6;
+  }
+
+.jumbotron-fifth h1,
+.jumbotron-fifth .btn {
+  color: #E5F0B6;
+}
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+.jumbotron-sixth {
+    margin-top: -30px; 
+    margin-bottom:0px;
+}
+
+.jumbotron-sixth .jumbotron-title {
+  font-size: 24px;
+}
+
+.jumbotron-sixth .jumbotron-heading {
+  font-size: 64px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #E5E5E5;
+  color: #667085;
+  margin-top: -40px;
+}
+
+.footer-content {
+    text-align: left;
+  }
+
+/* Testimonial */
+.testimonial {
+    margin-top: 130px;
+    background-color: #2F241F;
+}
+
+.testimonial p {
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    filter: grayscale(1);
+}
+
+.testimonial .img-main {
+    width: 100px;
+    height: 100px;
+    margin-top: -5px;
+    filter: grayscale(0);
+}
+
+.testimonial .info-text h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.testimonial .info-text p {
+    font-size: 12px;
+    margin-top: -5px;
+    color: #acacac;
+    font-style: normal;
+}
+
+
